@@ -1,0 +1,631 @@
+========================
+ Records for UID -2 : FFFFEEEE-DDDD-CCCC-BBBB-AAAAFFFFFFFE
+========================
+
+ ServiceManagement migrated: true
+ LaunchServices registered: false
+
+ Items:
+
+ #1:
+                 UUID: 73241E52-1365-40C5-8FD2-1DFCDF9FC55E
+                 Name: (null)
+       Developer Name: (null)
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: Unknown Developer
+                  URL: (null)
+           Generation: 0
+  Embedded Item Identifiers:
+    #1: 16.org.chrony-project.chronyd
+
+ #2:
+                 UUID: 5ABEFCB3-0211-42F0-B7C1-C13C90D7C244
+                 Name: sh
+       Developer Name: (null)
+                 Type: legacy daemon (0x10010)
+                Flags: [ legacy ] (0x1)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 16.org.chrony-project.logrotate
+                  URL: file:///Library/LaunchDaemons/org.chrony-project.chronyc.plist
+      Executable Path: /bin/sh
+           Generation: 4
+    Parent Identifier: Unknown Developer
+
+ #3:
+                 UUID: 2B310A30-9B1A-4405-A472-58050BBC215B
+                 Name: Battery Toolkit
+       Developer Name: Marvin Häuser
+      Team Identifier: EMH49F8A2Y
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: 2.me.mhaeuser.BatteryToolkit
+                  URL: file:///Applications/Battery%20Toolkit.app/
+           Generation: 1
+    Bundle Identifier: me.mhaeuser.BatteryToolkit
+  Embedded Item Identifiers:
+    #1: 16.me.mhaeuser.batterytoolkitd
+
+ #4:
+                 UUID: 057E05C9-A23A-4F8F-A7DE-011C6B5795E3
+                 Name: me.mhaeuser.batterytoolkitd
+       Developer Name: (null)
+      Team Identifier: EMH49F8A2Y
+                 Type: daemon (0x10)
+                Flags: [  ] (0)
+          Disposition: [enabled, allowed, not notified] (0x3)
+           Identifier: 16.me.mhaeuser.batterytoolkitd
+                  URL: Contents/Library/LaunchDaemons/me.mhaeuser.batterytoolkitd.plist
+      Executable Path: Contents/Library/LaunchServices/me.mhaeuser.batterytoolkitd
+           Generation: 1
+    Parent Identifier: 2.me.mhaeuser.BatteryToolkit
+
+ #5:
+                 UUID: 0B3A3A1C-2CA9-43D4-B6E7-5EB2E16EE004
+                 Name: Bjango Pty Ltd
+       Developer Name: Bjango Pty Ltd
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: Bjango Pty Ltd
+                  URL: (null)
+           Generation: 0
+  Embedded Item Identifiers:
+    #1: 16.com.bjango.istatmenus.installer
+
+ #6:
+                 UUID: 40E7A3EE-3F3E-46BD-AEAC-9D459427267A
+                 Name: com.bjango.istatmenus.installer
+       Developer Name: Bjango Pty Ltd
+      Team Identifier: Y93TK974AT
+                 Type: legacy daemon (0x10010)
+                Flags: [ legacy ] (0x1)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 16.com.bjango.istatmenus.installer
+                  URL: file:///Library/LaunchDaemons/com.bjango.istatmenus.installer.plist
+      Executable Path: /Library/PrivilegedHelperTools/com.bjango.istatmenus.installer
+           Generation: 1
+    Parent Identifier: Bjango Pty Ltd
+
+ #7:
+                 UUID: 83D2F1AF-6A3A-429E-9F32-787533237073
+                 Name: Bryan Christianson
+       Developer Name: Bryan Christianson
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: Bryan Christianson
+                  URL: (null)
+           Generation: 0
+  Embedded Item Identifiers:
+    #1: 16.net.whatroute.chronyhelper
+
+ #8:
+                 UUID: 9071691D-C030-48BF-B756-60CB2D187FC4
+                 Name: chronyd
+       Developer Name: Bryan Christianson
+      Team Identifier: H5879E8LML
+                 Type: legacy daemon (0x10010)
+                Flags: [ legacy ] (0x1)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 16.org.chrony-project.chronyd
+                  URL: file:///Library/LaunchDaemons/org.chrony-project.chronyd.plist
+      Executable Path: /usr/local/sbin/chronyd
+           Generation: 5
+    Parent Identifier: Bryan Christianson
+
+ #9:
+                 UUID: 288C592D-5A4E-43C1-8133-1E2AE7C98CA9
+                 Name: chronywake
+       Developer Name: Bryan Christianson
+      Team Identifier: H5879E8LML
+                 Type: legacy daemon (0x10010)
+                Flags: [ legacy ] (0x1)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 16.net.whatroute.chronywake
+                  URL: file:///Library/LaunchDaemons/net.whatroute.chronywake.plist
+      Executable Path: /usr/local/bin/chronywake
+           Generation: 4
+    Parent Identifier: Bryan Christianson
+
+ #10:
+                 UUID: C11ED703-2A4C-47A3-AA4C-A26DDA7FD9F2
+                 Name: net.whatroute.chronyhelper
+       Developer Name: Bryan Christianson
+      Team Identifier: H5879E8LML
+                 Type: legacy daemon (0x10010)
+                Flags: [ legacy ] (0x1)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 16.net.whatroute.chronyhelper
+                  URL: file:///Library/LaunchDaemons/net.whatroute.chronyhelper.plist
+      Executable Path: /Library/PrivilegedHelperTools/net.whatroute.chronyhelper
+           Generation: 1
+    Parent Identifier: Bryan Christianson
+
+ #11:
+                 UUID: 447EA563-4590-47B4-ADEC-C97968131D2C
+                 Name: OrbStack
+       Developer Name: (null)
+      Team Identifier: HUAQ24HBR6
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: 2.dev.kdrag0n.MacVirt
+                  URL: file:///Applications/OrbStack.app/
+           Generation: 10
+    Bundle Identifier: dev.kdrag0n.MacVirt
+  Embedded Item Identifiers:
+    #1: 16.dev.orbstack.OrbStack.privhelper
+
+ #12:
+                 UUID: 58DD6BEB-8D52-48B1-9F73-569CDDCD219C
+                 Name: dev.orbstack.OrbStack.privhelper
+       Developer Name: Orbital Labs, LLC (U.S.)
+      Team Identifier: HUAQ24HBR6
+                 Type: legacy daemon (0x10010)
+                Flags: [ legacy ] (0x1)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 16.dev.orbstack.OrbStack.privhelper
+                  URL: file:///Library/LaunchDaemons/dev.orbstack.OrbStack.privhelper.plist
+      Executable Path: /Library/PrivilegedHelperTools/dev.orbstack.OrbStack.privhelper
+           Generation: 1
+    Assoc. Bundle IDs: [ dev.kdrag0n.MacVirt ]
+    Parent Identifier: 2.dev.kdrag0n.MacVirt
+
+ #13:
+                 UUID: CD9A63ED-7EB1-409F-BD5C-55A06AB12C4E
+                 Name: Wuhan Olaf Network Technology Co., Ltd
+       Developer Name: Wuhan Olaf Network Technology Co., Ltd
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: Wuhan Olaf Network Technology Co., Ltd
+                  URL: (null)
+           Generation: 0
+  Embedded Item Identifiers:
+    #1: 16.com.leigod.helper
+
+ #14:
+                 UUID: B4FB5AB8-DDD6-4B8A-B0B2-02F66DBA0113
+                 Name: com.leigod.helper
+       Developer Name: Wuhan Olaf Network Technology Co., Ltd
+      Team Identifier: G74UK3P8Y8
+                 Type: legacy daemon (0x10010)
+                Flags: [ legacy ] (0x1)
+          Disposition: [enabled, disallowed, notified] (0x9)
+           Identifier: 16.com.leigod.helper
+                  URL: file:///Library/LaunchDaemons/com.leigod.helper.plist
+      Executable Path: /Library/PrivilegedHelperTools/leigod/com.leigod.helper
+           Generation: 2
+    Parent Identifier: Wuhan Olaf Network Technology Co., Ltd
+
+ #15:
+                 UUID: 030FBEF9-9835-4ACA-831E-72A62EF03E6D
+                 Name: com.bjango.istatmenus.daemon
+       Developer Name: Bjango Pty Ltd
+      Team Identifier: Y93TK974AT
+                 Type: legacy daemon (0x10010)
+                Flags: [ legacy ] (0x1)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 16.com.bjango.istatmenus.daemon
+                  URL: file:///Library/LaunchDaemons/com.bjango.istatmenus.daemon.plist
+      Executable Path: /Library/Application Support/iStat Menus 7/com.bjango.istatmenus.daemon
+           Generation: 3
+    Assoc. Bundle IDs: [ com.bjango.istatmenus ]
+    Parent Identifier: 2.com.bjango.istatmenus
+
+
+========================
+ Records for UID 0 : FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000000
+========================
+
+ ServiceManagement migrated: false
+ LaunchServices registered: false
+
+ Items:
+
+ #1:
+                 UUID: 73241E52-1365-40C5-8FD2-1DFCDF9FC55E
+                 Name: (null)
+       Developer Name: (null)
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, notified] (0xa)
+           Identifier: Unknown Developer
+                  URL: (null)
+           Generation: 2
+
+ #2:
+                 UUID: FE5FA768-B81F-47E2-8D30-3297236D9E1F
+                 Name: Battery Toolkit
+       Developer Name: Marvin Häuser
+      Team Identifier: EMH49F8A2Y
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, notified] (0xa)
+           Identifier: 2.me.mhaeuser.BatteryToolkit
+                  URL: file:///Applications/Battery%20Toolkit.app/
+           Generation: 2
+    Bundle Identifier: me.mhaeuser.BatteryToolkit
+
+ #3:
+                 UUID: 0B3A3A1C-2CA9-43D4-B6E7-5EB2E16EE004
+                 Name: Bjango Pty Ltd
+       Developer Name: Bjango Pty Ltd
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: Bjango Pty Ltd
+                  URL: (null)
+           Generation: 1
+
+ #4:
+                 UUID: 83D2F1AF-6A3A-429E-9F32-787533237073
+                 Name: Bryan Christianson
+       Developer Name: Bryan Christianson
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: Bryan Christianson
+                  URL: (null)
+           Generation: 9
+
+ #5:
+                 UUID: 447EA563-4590-47B4-ADEC-C97968131D2C
+                 Name: OrbStack
+       Developer Name: (null)
+      Team Identifier: HUAQ24HBR6
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: 2.dev.kdrag0n.MacVirt
+                  URL: file:///Applications/OrbStack.app/
+           Generation: 11
+    Bundle Identifier: dev.kdrag0n.MacVirt
+
+ #6:
+                 UUID: CD9A63ED-7EB1-409F-BD5C-55A06AB12C4E
+                 Name: Wuhan Olaf Network Technology Co., Ltd
+       Developer Name: Wuhan Olaf Network Technology Co., Ltd
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: Wuhan Olaf Network Technology Co., Ltd
+                  URL: (null)
+           Generation: 1
+
+ #7:
+                 UUID: FDD3409C-8F9B-4E2B-B730-5B1DC5A1EB1B
+                 Name: iStat Menus
+       Developer Name: (null)
+      Team Identifier: Y93TK974AT
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, notified] (0xa)
+           Identifier: 2.com.bjango.istatmenus
+                  URL: file:///Applications/iStat%20Menus.app/
+           Generation: 2
+    Bundle Identifier: com.bjango.istatmenus
+  Embedded Item Identifiers:
+    #1: 16.com.bjango.istatmenus.daemon
+
+
+========================
+ Records for UID 501 : 28BC458E-1968-4ACD-96FD-5C282FB0F0F7
+========================
+
+ ServiceManagement migrated: true
+ LaunchServices registered: true
+
+ Items:
+
+ #1:
+                 UUID: 5DE4DCF1-8F2F-448E-8AD1-44073FE2E740
+                 Name: (null)
+       Developer Name: (null)
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: Unknown Developer
+                  URL: (null)
+           Generation: 0
+  Embedded Item Identifiers:
+    #1: 16.org.chrony-project.chronyd
+
+ #2:
+                 UUID: 2FDAD3E3-7B7B-44D7-A471-CE0BEE847662
+                 Name: 1Password
+       Developer Name: AgileBits Inc.
+      Team Identifier: 2BUA8C4S2C
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: 2.com.1password.1password
+                  URL: file:///Applications/1Password.app/
+           Generation: 19
+    Bundle Identifier: com.1password.1password
+
+ #3:
+                 UUID: DA565DA1-9B31-44AD-A6E3-E5119746F770
+                 Name: 1Password Browser Helper
+       Developer Name: AgileBits Inc.
+      Team Identifier: 2BUA8C4S2C
+                 Type: login item (0x4)
+                Flags: [ sandboxed ] (0x40)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 4.2BUA8C4S2C.com.1password.browser-helper
+                  URL: Contents/Library/LoginItems/1Password%20Browser%20Helper.app
+           Generation: 1
+    Bundle Identifier: 2BUA8C4S2C.com.1password.browser-helper
+    Parent Identifier: 2.com.1password.1password
+
+ #4:
+                 UUID: 65AD2969-5C28-4F9D-A862-FF698B595920
+                 Name: 1Password Launcher
+       Developer Name: AgileBits Inc.
+      Team Identifier: 2BUA8C4S2C
+                 Type: login item (0x4)
+                Flags: [ sandboxed ] (0x40)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 4.com.1password.1password-launcher
+                  URL: Contents/Library/LoginItems/1Password%20Launcher.app
+           Generation: 1
+    Bundle Identifier: com.1password.1password-launcher
+    Parent Identifier: 2.com.1password.1password
+
+ #5:
+                 UUID: 2B310A30-9B1A-4405-A472-58050BBC215B
+                 Name: Battery Toolkit
+       Developer Name: Marvin Häuser
+      Team Identifier: EMH49F8A2Y
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [enabled, allowed, not notified] (0x3)
+           Identifier: 2.me.mhaeuser.BatteryToolkit
+                  URL: file:///Applications/Battery%20Toolkit.app/
+           Generation: 3
+    Bundle Identifier: me.mhaeuser.BatteryToolkit
+
+ #6:
+                 UUID: 68772439-D544-4F03-835F-C7B2946D92F7
+                 Name: Bjango Pty Ltd
+       Developer Name: Bjango Pty Ltd
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, notified] (0xa)
+           Identifier: Bjango Pty Ltd
+                  URL: (null)
+           Generation: 3
+  Embedded Item Identifiers:
+    #1: 16.com.bjango.istatmenus.installer
+
+ #7:
+                 UUID: DC4DEBDC-B907-4A0E-BDCB-6F280E51F364
+                 Name: Bryan Christianson
+       Developer Name: Bryan Christianson
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, notified] (0xa)
+           Identifier: Bryan Christianson
+                  URL: (null)
+           Generation: 1
+  Embedded Item Identifiers:
+    #1: 16.net.whatroute.chronyhelper
+
+ #8:
+                 UUID: 1FC06DE0-0A57-4BAB-AD6F-5898ADC81C3B
+                 Name: Mac Mouse Fix
+       Developer Name: Noah Nuebling
+      Team Identifier: LM5Z78756B
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: 2.com.nuebling.mac-mouse-fix
+                  URL: file:///Applications/Mac%20Mouse%20Fix.app/
+           Generation: 0
+    Bundle Identifier: com.nuebling.mac-mouse-fix
+
+ #9:
+                 UUID: 9CDC060F-E40E-47BC-9D81-4D366D391312
+                 Name: Mac Mouse Fix Helper
+       Developer Name: (null)
+      Team Identifier: LM5Z78756B
+                 Type: agent (0x8)
+                Flags: [  ] (0)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 8.com.nuebling.mac-mouse-fix.helper
+                  URL: Contents/Library/LaunchAgents/sm_launchd.plist
+      Executable Path: Contents/Library/LoginItems/Mac Mouse Fix Helper.app/Contents/MacOS/Mac Mouse Fix Helper
+           Generation: 1
+    Parent Identifier: 2.com.nuebling.mac-mouse-fix
+
+ #10:
+                 UUID: FFFF9A1F-E4E5-42F8-807F-EFBE52C6F140
+                 Name: Maccy
+       Developer Name: Alexey Rodionov
+      Team Identifier: MN3X4648SC
+                 Type: app (0x2)
+                Flags: [ sandboxed ] (0x40)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 2.org.p0deje.Maccy
+                  URL: file:///Applications/Maccy.app/
+           Generation: 2
+    Bundle Identifier: org.p0deje.Maccy
+
+ #11:
+                 UUID: CA2B5E63-03AA-4726-B0ED-787B164964F8
+                 Name: OrbStack
+       Developer Name: (null)
+      Team Identifier: HUAQ24HBR6
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, notified] (0xa)
+           Identifier: 2.dev.kdrag0n.MacVirt
+                  URL: file:///Applications/OrbStack.app/
+           Generation: 11
+    Bundle Identifier: dev.kdrag0n.MacVirt
+
+ #12:
+                 UUID: 611AD075-8265-42C4-AF85-14177BFCD5EC
+                 Name: Parallels Desktop
+       Developer Name: (null)
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, notified] (0xa)
+           Identifier: 2.com.parallels.desktop.console
+                  URL: file:///Applications/Parallels%20Desktop.app/
+           Generation: 4
+    Bundle Identifier: com.parallels.desktop.console
+
+ #13:
+                 UUID: 6B28CFE8-480E-4A8B-BF07-1D7188B07B70
+                 Name: com.parallels.desktop.console.ExeQLPlugin.appex
+       Developer Name: (null)
+                 Type: quicklook (0x800)
+                Flags: [  ] (0)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 2048.com.parallels.desktop.console.ExeQLPlugin
+                  URL: Contents/PlugIns/com.parallels.desktop.console.ExeQLPlugin.appex
+           Generation: 1
+    Bundle Identifier: com.parallels.desktop.console.ExeQLPlugin
+    Parent Identifier: 2.com.parallels.desktop.console
+
+ #14:
+                 UUID: D817416F-B1B3-4D0D-B316-2059F5DFF1A1
+                 Name: Thunderbird
+       Developer Name: Mozilla Corporation
+      Team Identifier: 43AQ936H96
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, notified] (0xa)
+           Identifier: 2.org.mozilla.thunderbird
+                  URL: file:///Applications/Thunderbird.app/
+           Generation: 1
+    Bundle Identifier: org.mozilla.thunderbird
+
+ #15:
+                 UUID: 350A6BA3-2C67-4B8A-B223-8792A3567806
+                 Name: thunderbird.mdimporter
+       Developer Name: (null)
+      Team Identifier: 43AQ936H96
+                 Type: spotlight (0x40)
+                Flags: [  ] (0)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 64.org.mozilla.MDImporter.Thunderbird
+                  URL: Contents/Library/Spotlight/thunderbird.mdimporter
+           Generation: 1
+    Bundle Identifier: org.mozilla.MDImporter.Thunderbird
+    Parent Identifier: 2.org.mozilla.thunderbird
+
+ #16:
+                 UUID: B4F54CCE-1401-4BD0-A5EE-EC9B83E5F71A
+                 Name: Windows App
+       Developer Name: (null)
+      Team Identifier: UBF8T346G9
+                 Type: app (0x2)
+                Flags: [ sandboxed ] (0x40)
+          Disposition: [disabled, allowed, notified] (0xa)
+           Identifier: 2.com.microsoft.rdc.macos
+                  URL: file:///Applications/Windows%20App.app/
+           Generation: 1
+    Bundle Identifier: com.microsoft.rdc.macos
+
+ #17:
+                 UUID: F582DEE7-EE4E-4EEF-BDAB-122BFE58FAC9
+                 Name: QuicklookExtension.appex
+       Developer Name: (null)
+      Team Identifier: UBF8T346G9
+                 Type: quicklook (0x800)
+                Flags: [ sandboxed ] (0x40)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 2048.com.microsoft.rdc.macos.qlx
+                  URL: Contents/PlugIns/QuicklookExtension.appex
+           Generation: 1
+    Bundle Identifier: com.microsoft.rdc.macos.qlx
+    Parent Identifier: 2.com.microsoft.rdc.macos
+
+ #18:
+                 UUID: ADF3E0FF-69DF-4D8A-859B-65FB7B20562A
+                 Name: Wuhan Olaf Network Technology Co., Ltd
+       Developer Name: Wuhan Olaf Network Technology Co., Ltd
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, notified] (0xa)
+           Identifier: Wuhan Olaf Network Technology Co., Ltd
+                  URL: (null)
+           Generation: 1
+  Embedded Item Identifiers:
+    #1: 16.com.leigod.helper
+
+ #19:
+                 UUID: E21D190D-8FC2-461E-A96A-CD4293FFA6C3
+                 Name: iStat Menus
+       Developer Name: (null)
+      Team Identifier: Y93TK974AT
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: 2.com.bjango.istatmenus
+                  URL: file:///Applications/iStat%20Menus.app/
+           Generation: 1
+    Bundle Identifier: com.bjango.istatmenus
+  Embedded Item Identifiers:
+    #1: 8.com.bjango.istatmenus.agent
+
+ #20:
+                 UUID: 9DC28866-B7E4-4FE8-A937-6B1A8181E47D
+                 Name: iStat Menus Helper
+       Developer Name: Bjango Pty Ltd
+      Team Identifier: Y93TK974AT
+                 Type: legacy agent (0x10008)
+                Flags: [ legacy ] (0x1)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 8.com.bjango.istatmenus.agent
+                  URL: file:///Users/swizzer/Library/LaunchAgents/com.bjango.istatmenus.agent.plist
+      Executable Path: /Users/swizzer/Library/Application Support/iStat Menus 7/iStat Menus Helper.app/Contents/MacOS/iStat Menus Helper
+           Generation: 2
+    Parent Identifier: 2.com.bjango.istatmenus
+
+ #21:
+                 UUID: 29265201-3FF7-4009-B643-192A1221E602
+                 Name: iStat Menus Menubar
+       Developer Name: Bjango Pty Ltd
+      Team Identifier: Y93TK974AT
+                 Type: legacy agent (0x10008)
+                Flags: [ legacy ] (0x1)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 8.com.bjango.istatmenus.status
+                  URL: file:///Users/swizzer/Library/LaunchAgents/com.bjango.istatmenus.status.plist
+      Executable Path: /Users/swizzer/Library/Application Support/iStat Menus 7/iStat Menus Menubar.app/Contents/MacOS/iStat Menus Menubar
+           Generation: 2
+    Parent Identifier: 2.com.bjango.istatmenus
+
+ #22:
+                 UUID: 3B595009-ABEF-4DA4-AB8D-22F3108493C2
+                 Name: 天气
+       Developer Name: (null)
+                 Type: app (0x2)
+                Flags: [ sandboxed ] (0x40)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: 2.com.apple.weather
+                  URL: file:///System/Applications/Weather.app/
+           Generation: 5
+    Bundle Identifier: com.apple.weather
+
+ #23:
+                 UUID: 8AD8CE76-AB04-4144-8A26-8912F835D909
+                 Name: WeatherMenu
+       Developer Name: (null)
+                 Type: login item (0x4)
+                Flags: [ sandboxed ] (0x40)
+          Disposition: [enabled, disallowed, notified] (0x9)
+           Identifier: 4.com.apple.weather.menu
+                  URL: Contents/Library/LoginItems/WeatherMenu.app
+           Generation: 5
+    Bundle Identifier: com.apple.weather.menu
+    Parent Identifier: 2.com.apple.weather
+
+
+
