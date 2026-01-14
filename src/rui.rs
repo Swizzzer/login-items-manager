@@ -202,8 +202,6 @@ impl App {
           status.text.as_str(),
           Style::default().fg(Color::LightYellow),
         ),
-        Span::raw("   "),
-        Span::styled("Home/End 跳转到首项/末项", Style::default().fg(Color::Gray)),
       ]);
     }
 
@@ -213,7 +211,7 @@ impl App {
         Style::default().fg(Color::LightYellow),
       ),
       Span::raw("   "),
-      Span::styled("Home/End 跳转", Style::default().fg(Color::Gray)),
+      Span::styled("Home/End 跳转到首项/末项", Style::default().fg(Color::Gray)),
     ])
   }
 
