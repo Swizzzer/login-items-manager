@@ -197,12 +197,10 @@ impl App {
     }
 
     if let Some(status) = &self.status {
-      return Line::from(vec![
-        Span::styled(
-          status.text.as_str(),
-          Style::default().fg(Color::LightYellow),
-        ),
-      ]);
+      return Line::from(vec![Span::styled(
+        status.text.as_str(),
+        Style::default().fg(Color::LightYellow),
+      )]);
     }
 
     Line::from(vec![
